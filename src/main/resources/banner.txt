@@ -1,0 +1,15 @@
+  __   _  _  __  ___  __ _    ____  _  _  __  __    ____    ____  _  _  ____  ____  ____  _  _ 
+ /  \ / )( \(  )/ __)(  / )  (  _ \/ )( \(  )(  )  (    \  / ___)( \/ )/ ___)(_  _)(  __)( \/ )
+(  O )) \/ ( )(( (__  )  (    ) _ () \/ ( )( / (_/\ ) D (  \___ \ )  / \___ \  )(   ) _) / \/ \
+ \__\)\____/(__)\___)(__\_)  (____/\____/(__)\____/(____/  (____/(__/  (____/ (__) (____)\_)(_/
+${AnsiColor.BRIGHT_GREEN}${spring.application.name}         ${AnsiColor.WHITE}(${spring.application.version})
+${AnsiColor.BRIGHT_GREEN}::Spring Boot::    ${AnsiColor.WHITE}${spring-boot.formatted-version}
+${AnsiColor.BRIGHT_BLUE}
+快速构建系统
+开发使用手册：https://www.yuque.com/uga1ha/quickbuild
+视频培训教程：https://space.bilibili.com/433312031/channel/seriesdetail?sid=808599
+github地址：https://github.com/jfok1972/quick-build
+gitee地址: https://gitee.com/jhopesoft/quick-build
+技术服务支持：
+	姓名：蒋锋		QQ：78580822		QQ群：386100815
+	微信号：jfok1972	电子邮件:jfok1972@qq.com

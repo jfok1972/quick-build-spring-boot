@@ -1,0 +1,13 @@
+### mysql的设置
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/quickbuild?useUnicode=true&characterEncoding=utf8&useFastDateParsing=false&useSSL=true&serverTimezone=Asia/Shanghai 
+    username: qbuser
+    password: qbuser
+    druid:
+      validationQuery: SELECT 1

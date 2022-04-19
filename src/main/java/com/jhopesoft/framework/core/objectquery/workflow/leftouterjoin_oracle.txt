@@ -1,0 +1,9 @@
+        LEFT OUTER JOIN
+    v_act_hi_procinst act_procinst ON act_procinst.BUSINESS_KEY_ = this_.:jxy_objectkeyfield 
+        AND act_procinst.objectname = :jxy_objectname 
+        LEFT OUTER JOIN
+    v_act_ru_task_1 act_task ON act_task.PROC_INST_ID_ = act_procinst.PROC_INST_ID_
+        AND (act_task.ASSIGNEE_ = :jxy_userid
+        OR (act_task.ASSIGNEE_ is null AND FIND_IN_SET( :jxy_userid , act_task.candidate) > 0))
+
+        
