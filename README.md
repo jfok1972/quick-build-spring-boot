@@ -18,7 +18,7 @@ git clone https://gitee.com/jhopesoft/quick-build-spring-boot
 获取和运行项目视频讲解
 
 ## 快速构建系统资料和技术支持方式
----
+
 开发使用手册：https://www.yuque.com/uga1ha/quickbuild
 
 视频培训教程：https://space.bilibili.com/433312031/channel/seriesdetail?sid=808599
